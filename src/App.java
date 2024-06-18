@@ -6,8 +6,19 @@ public class App {
 
         System.out.print("Digite seu nome completo: ");
         String nome = sc.nextLine();
+
+        System.out.print("Qual a sua idade: ");
+        int idade = sc.nextInt();
+
         sc.close();
 
-        System.out.println("Bem vindo, " + nome + "!");
+              
+        if (idade < 18) {
+            System.out.println("Infelizmente voce nao pode abrir uma conta.");
+        }else{
+            System.out.println("Bem vindo, " + nome + "!");
+        }
+
+
     }
 }
