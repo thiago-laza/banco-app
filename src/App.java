@@ -16,7 +16,8 @@ public class App {
         if (idade < 18) {
             System.out.println("Infelizmente voce nao pode abrir uma conta.");
         }else{
-            System.out.println("Bem vindo, " + nome + "!");
+            System.out.println("Bem vindo, " + nome + "!!");
+            System.out.println("novo teste");
         }
 
 
